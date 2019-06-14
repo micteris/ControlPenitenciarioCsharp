@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29009.5
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{CA1CB417-6F91-4AD5-9848-5B2EA4527069}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ControlPenitenciario", "ControlPenitenciario\ControlPenitenciario.csproj", "{63075951-C38D-4B9A-91AC-92CA86235DE3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{63075951-C38D-4B9A-91AC-92CA86235DE3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{63075951-C38D-4B9A-91AC-92CA86235DE3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{63075951-C38D-4B9A-91AC-92CA86235DE3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{63075951-C38D-4B9A-91AC-92CA86235DE3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{63075951-C38D-4B9A-91AC-92CA86235DE3} = {CA1CB417-6F91-4AD5-9848-5B2EA4527069}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A9F1F460-C401-4A58-BB20-E5B8F62B9F95}
+	EndGlobalSection
+EndGlobal
