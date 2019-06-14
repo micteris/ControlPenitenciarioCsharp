@@ -21,13 +21,8 @@ namespace ControlPenitenciario
 
         private void BtnSalir_Click(object sender, EventArgs e)
         {
-            Dispose();
-        }
-
-        private void BtnLogin_Click(object sender, EventArgs e)
-        {
-            
-
+            this.Close();
+            //Dispose();
         }
 
         private void Vergueo()
@@ -48,7 +43,11 @@ namespace ControlPenitenciario
             var usuarioUi = new Usuarios { Nick = txtUser.Text, contra = txtPassword.Text };
             var usuarioResult = Data.Auth(usuarioUi);
             if (usuarioUi.Nick == usuarioResult.Nick && usuarioUi.contra == usuarioResult.contra)
+            {
                 MessageBox.Show("Correcto");
+                Form2 frm2 = new Form2();
+                frm2.Show();
+            }
             else
                 MessageBox.Show("tas pendejo");
         }
