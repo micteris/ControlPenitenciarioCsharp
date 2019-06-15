@@ -16,5 +16,22 @@ namespace ControlPenitenciario
         {
             InitializeComponent();
         }
+
+        private void SalirToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void SalirToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void MenuPrincipalToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            this.Close();
+            Form2 frm2 = new Form2();
+            frm2.Show();
+        }
     }
 }
