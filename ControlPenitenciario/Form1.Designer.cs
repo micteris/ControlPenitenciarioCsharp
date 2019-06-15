@@ -98,6 +98,7 @@
             this.Controls.Add(this.btnSalir);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Form1";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
             this.TransparencyKey = System.Drawing.SystemColors.Control;
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();

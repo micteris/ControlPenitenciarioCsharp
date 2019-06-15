@@ -31,11 +31,13 @@
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.inicioToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.sToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.mantenimientoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.reportesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.bitacoraToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.salirToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.mantenimientoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.testingToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.testing2ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.testing3ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -67,18 +69,9 @@
             // sToolStripMenuItem
             // 
             this.sToolStripMenuItem.Name = "sToolStripMenuItem";
-            this.sToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.sToolStripMenuItem.Size = new System.Drawing.Size(121, 26);
             this.sToolStripMenuItem.Text = "Salir";
             this.sToolStripMenuItem.Click += new System.EventHandler(this.SToolStripMenuItem_Click);
-            // 
-            // mantenimientoToolStripMenuItem
-            // 
-            this.mantenimientoToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.testingToolStripMenuItem});
-            this.mantenimientoToolStripMenuItem.ForeColor = System.Drawing.Color.Silver;
-            this.mantenimientoToolStripMenuItem.Name = "mantenimientoToolStripMenuItem";
-            this.mantenimientoToolStripMenuItem.Size = new System.Drawing.Size(124, 24);
-            this.mantenimientoToolStripMenuItem.Text = "Mantenimiento";
             // 
             // reportesToolStripMenuItem
             // 
@@ -102,12 +95,37 @@
             this.salirToolStripMenuItem.Text = "Salir";
             this.salirToolStripMenuItem.Click += new System.EventHandler(this.SalirToolStripMenuItem_Click);
             // 
+            // mantenimientoToolStripMenuItem
+            // 
+            this.mantenimientoToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.testingToolStripMenuItem,
+            this.testing2ToolStripMenuItem,
+            this.testing3ToolStripMenuItem});
+            this.mantenimientoToolStripMenuItem.ForeColor = System.Drawing.Color.Silver;
+            this.mantenimientoToolStripMenuItem.Name = "mantenimientoToolStripMenuItem";
+            this.mantenimientoToolStripMenuItem.Size = new System.Drawing.Size(124, 24);
+            this.mantenimientoToolStripMenuItem.Text = "Mantenimiento";
+            // 
             // testingToolStripMenuItem
             // 
             this.testingToolStripMenuItem.Name = "testingToolStripMenuItem";
             this.testingToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.testingToolStripMenuItem.Text = "testing";
-            this.testingToolStripMenuItem.Click += new System.EventHandler(this.TestingToolStripMenuItem_Click);
+            this.testingToolStripMenuItem.Click += new System.EventHandler(this.TestingToolStripMenuItem_Click_1);
+            // 
+            // testing2ToolStripMenuItem
+            // 
+            this.testing2ToolStripMenuItem.Name = "testing2ToolStripMenuItem";
+            this.testing2ToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.testing2ToolStripMenuItem.Text = "testing 2";
+            this.testing2ToolStripMenuItem.Click += new System.EventHandler(this.Testing2ToolStripMenuItem_Click);
+            // 
+            // testing3ToolStripMenuItem
+            // 
+            this.testing3ToolStripMenuItem.Name = "testing3ToolStripMenuItem";
+            this.testing3ToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.testing3ToolStripMenuItem.Text = "testing 3";
+            this.testing3ToolStripMenuItem.Click += new System.EventHandler(this.Testing3ToolStripMenuItem_Click);
             // 
             // Form2
             // 
@@ -119,6 +137,7 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "Form2";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form2";
             this.Load += new System.EventHandler(this.Form2_Load);
             this.menuStrip1.ResumeLayout(false);
@@ -134,9 +153,11 @@
         private System.Windows.Forms.ToolStripMenuItem inicioToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem sToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem reportesToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem mantenimientoToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem bitacoraToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem salirToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem mantenimientoToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem testingToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem testing2ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem testing3ToolStripMenuItem;
     }
 }

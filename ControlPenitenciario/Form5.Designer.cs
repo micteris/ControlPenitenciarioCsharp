@@ -1,6 +1,6 @@
 ﻿namespace ControlPenitenciario
 {
-    partial class Form3
+    partial class Form5
     {
         /// <summary>
         /// Required designer variable.
@@ -30,9 +30,9 @@
         {
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.inicioToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.salirToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuPrincipalToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.salirToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
-            this.salirToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -59,20 +59,6 @@
             this.inicioToolStripMenuItem.Size = new System.Drawing.Size(59, 24);
             this.inicioToolStripMenuItem.Text = "Inicio";
             // 
-            // menuPrincipalToolStripMenuItem
-            // 
-            this.menuPrincipalToolStripMenuItem.Name = "menuPrincipalToolStripMenuItem";
-            this.menuPrincipalToolStripMenuItem.Size = new System.Drawing.Size(190, 26);
-            this.menuPrincipalToolStripMenuItem.Text = "Menu Principal";
-            this.menuPrincipalToolStripMenuItem.Click += new System.EventHandler(this.MenuPrincipalToolStripMenuItem_Click);
-            // 
-            // salirToolStripMenuItem1
-            // 
-            this.salirToolStripMenuItem1.Name = "salirToolStripMenuItem1";
-            this.salirToolStripMenuItem1.Size = new System.Drawing.Size(190, 26);
-            this.salirToolStripMenuItem1.Text = "Salir";
-            this.salirToolStripMenuItem1.Click += new System.EventHandler(this.SalirToolStripMenuItem1_Click);
-            // 
             // salirToolStripMenuItem
             // 
             this.salirToolStripMenuItem.ForeColor = System.Drawing.Color.Silver;
@@ -81,7 +67,21 @@
             this.salirToolStripMenuItem.Text = "Salir";
             this.salirToolStripMenuItem.Click += new System.EventHandler(this.SalirToolStripMenuItem_Click);
             // 
-            // Form3
+            // menuPrincipalToolStripMenuItem
+            // 
+            this.menuPrincipalToolStripMenuItem.Name = "menuPrincipalToolStripMenuItem";
+            this.menuPrincipalToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.menuPrincipalToolStripMenuItem.Text = "Menu Principal";
+            this.menuPrincipalToolStripMenuItem.Click += new System.EventHandler(this.MenuPrincipalToolStripMenuItem_Click);
+            // 
+            // salirToolStripMenuItem1
+            // 
+            this.salirToolStripMenuItem1.Name = "salirToolStripMenuItem1";
+            this.salirToolStripMenuItem1.Size = new System.Drawing.Size(224, 26);
+            this.salirToolStripMenuItem1.Text = "Salir";
+            this.salirToolStripMenuItem1.Click += new System.EventHandler(this.SalirToolStripMenuItem1_Click);
+            // 
+            // Form5
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -90,9 +90,9 @@
             this.Controls.Add(this.menuStrip1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.MainMenuStrip = this.menuStrip1;
-            this.Name = "Form3";
+            this.Name = "Form5";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Form3";
+            this.Text = "Form5";
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             this.ResumeLayout(false);

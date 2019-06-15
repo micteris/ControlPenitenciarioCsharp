@@ -38,5 +38,26 @@ namespace ControlPenitenciario
         {
             this.Close();
         }
+
+        private void TestingToolStripMenuItem_Click_1(object sender, EventArgs e)
+        {
+            this.Close();
+            Form3 frm3 = new Form3();
+            frm3.Show();
+        }
+
+        private void Testing2ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            this.Close();
+            Form4 frm4 = new Form4();
+            frm4.Show();
+        }
+
+        private void Testing3ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            this.Close();
+            Form5 frm5 = new Form5();
+            frm5.Show();
+        }
     }
 }
