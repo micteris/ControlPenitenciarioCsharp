@@ -31,19 +31,20 @@
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.inicioToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.sToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.reportesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.bitacoraToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.salirToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.mantenimientoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.testingToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.testing2ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.testing3ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.reportesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.bitacoraToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.salirToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.testing4ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
             // menuStrip1
             // 
-            this.menuStrip1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(47)))), ((int)(((byte)(47)))), ((int)(((byte)(47)))));
+            this.menuStrip1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(42)))), ((int)(((byte)(42)))), ((int)(((byte)(42)))));
             this.menuStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.inicioToolStripMenuItem,
@@ -73,34 +74,13 @@
             this.sToolStripMenuItem.Text = "Salir";
             this.sToolStripMenuItem.Click += new System.EventHandler(this.SToolStripMenuItem_Click);
             // 
-            // reportesToolStripMenuItem
-            // 
-            this.reportesToolStripMenuItem.ForeColor = System.Drawing.Color.Silver;
-            this.reportesToolStripMenuItem.Name = "reportesToolStripMenuItem";
-            this.reportesToolStripMenuItem.Size = new System.Drawing.Size(82, 24);
-            this.reportesToolStripMenuItem.Text = "Reportes";
-            // 
-            // bitacoraToolStripMenuItem
-            // 
-            this.bitacoraToolStripMenuItem.ForeColor = System.Drawing.Color.Silver;
-            this.bitacoraToolStripMenuItem.Name = "bitacoraToolStripMenuItem";
-            this.bitacoraToolStripMenuItem.Size = new System.Drawing.Size(78, 24);
-            this.bitacoraToolStripMenuItem.Text = "Bitacora";
-            // 
-            // salirToolStripMenuItem
-            // 
-            this.salirToolStripMenuItem.ForeColor = System.Drawing.Color.Silver;
-            this.salirToolStripMenuItem.Name = "salirToolStripMenuItem";
-            this.salirToolStripMenuItem.Size = new System.Drawing.Size(52, 24);
-            this.salirToolStripMenuItem.Text = "Salir";
-            this.salirToolStripMenuItem.Click += new System.EventHandler(this.SalirToolStripMenuItem_Click);
-            // 
             // mantenimientoToolStripMenuItem
             // 
             this.mantenimientoToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.testingToolStripMenuItem,
             this.testing2ToolStripMenuItem,
-            this.testing3ToolStripMenuItem});
+            this.testing3ToolStripMenuItem,
+            this.testing4ToolStripMenuItem});
             this.mantenimientoToolStripMenuItem.ForeColor = System.Drawing.Color.Silver;
             this.mantenimientoToolStripMenuItem.Name = "mantenimientoToolStripMenuItem";
             this.mantenimientoToolStripMenuItem.Size = new System.Drawing.Size(124, 24);
@@ -126,6 +106,35 @@
             this.testing3ToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.testing3ToolStripMenuItem.Text = "testing 3";
             this.testing3ToolStripMenuItem.Click += new System.EventHandler(this.Testing3ToolStripMenuItem_Click);
+            // 
+            // reportesToolStripMenuItem
+            // 
+            this.reportesToolStripMenuItem.ForeColor = System.Drawing.Color.Silver;
+            this.reportesToolStripMenuItem.Name = "reportesToolStripMenuItem";
+            this.reportesToolStripMenuItem.Size = new System.Drawing.Size(82, 24);
+            this.reportesToolStripMenuItem.Text = "Reportes";
+            // 
+            // bitacoraToolStripMenuItem
+            // 
+            this.bitacoraToolStripMenuItem.ForeColor = System.Drawing.Color.Silver;
+            this.bitacoraToolStripMenuItem.Name = "bitacoraToolStripMenuItem";
+            this.bitacoraToolStripMenuItem.Size = new System.Drawing.Size(78, 24);
+            this.bitacoraToolStripMenuItem.Text = "Bitacora";
+            // 
+            // salirToolStripMenuItem
+            // 
+            this.salirToolStripMenuItem.ForeColor = System.Drawing.Color.Silver;
+            this.salirToolStripMenuItem.Name = "salirToolStripMenuItem";
+            this.salirToolStripMenuItem.Size = new System.Drawing.Size(52, 24);
+            this.salirToolStripMenuItem.Text = "Salir";
+            this.salirToolStripMenuItem.Click += new System.EventHandler(this.SalirToolStripMenuItem_Click);
+            // 
+            // testing4ToolStripMenuItem
+            // 
+            this.testing4ToolStripMenuItem.Name = "testing4ToolStripMenuItem";
+            this.testing4ToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.testing4ToolStripMenuItem.Text = "Testing 4";
+            this.testing4ToolStripMenuItem.Click += new System.EventHandler(this.Testing4ToolStripMenuItem_Click);
             // 
             // Form2
             // 
@@ -159,5 +168,6 @@
         private System.Windows.Forms.ToolStripMenuItem testingToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem testing2ToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem testing3ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem testing4ToolStripMenuItem;
     }
 }

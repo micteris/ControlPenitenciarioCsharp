@@ -36,7 +36,7 @@ namespace ControlPenitenciario
 
         private void SalirToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            this.Close();
+            this.Dispose();
         }
 
         private void TestingToolStripMenuItem_Click_1(object sender, EventArgs e)
@@ -58,6 +58,13 @@ namespace ControlPenitenciario
             this.Close();
             Form5 frm5 = new Form5();
             frm5.Show();
+        }
+
+        private void Testing4ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            this.Close();
+            Form6 frm6 = new Form6();
+            frm6.Show();
         }
     }
 }
